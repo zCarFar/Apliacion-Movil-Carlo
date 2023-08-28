@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:duration="1000"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    tools:context=".MainActivity2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/azul_marino"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="MATRÍCULA REALIZADA"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_gravity="center" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/pestaña2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2">
+
+        <TextView
+            android:id="@+id/text_alumno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alumno:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_escuela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escuela:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrera:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/text_carnet_biblioteca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carnet de Biblioteca:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_carnet_pasaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carnet de Pasaje:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_radio_seleccionado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de cuotas:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+
+
+        <TextView
+            android:id="@+id/text_costo_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Costo de Carrera:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_pension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pensión:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+
+        <TextView
+            android:id="@+id/text_adicionales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gastos Adicionales:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_total_pagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total a Pagar:"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <!-- Agrega aquí los TextViews que faltan -->
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/volver_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

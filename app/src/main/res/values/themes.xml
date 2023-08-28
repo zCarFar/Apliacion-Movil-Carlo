@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Formulario" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/azul_marino</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Formulario" parent="Base.Theme.Formulario" />
+    <style name="BottomNavigation">
+        <item name="android:background">@color/azul_marino</item>
+        <item name="itemIconTint">@color/naranja</item>
+        <item name="itemTextColor">@color/amarillo</item>
+    </style>
+</resources>

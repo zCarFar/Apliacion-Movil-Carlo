@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FormLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginStart">21dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="FormEditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginStart">11dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">95dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">12sp</item>
+
+    </style>
+
+    <style name="SectionHeader">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginEnd">237dp</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">34dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+    <!-- Estilo de la Toolbar -->
+    <style name="AppToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/azul_marino</item>
+    </style>
+
+    <!-- Estilo del título en la Toolbar -->
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Estilo de los TextViews -->
+    <style name="TextViewStyle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
